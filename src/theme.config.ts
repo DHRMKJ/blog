@@ -19,7 +19,7 @@ export const THEME_CONFIG: App.Locals["config"] = {
     },
     {
       name: "discord",
-      href: "https://discord.com/cagnusmarlsen_",
+      href: "https://discord.com/users/1103331985239322635",
     },
     {
       name: "twitter",
