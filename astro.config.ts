@@ -10,9 +10,6 @@ export default defineConfig({
   site: THEME_CONFIG.website,
   base: "/blog",
   prefetch: true,
-  redirects: {
-    "/[...slug]": "/blog/[...slug]",
-  },
   markdown: {
     shikiConfig: {
       theme: "one-dark-pro",
