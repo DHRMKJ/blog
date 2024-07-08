@@ -6,6 +6,7 @@ import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
 import { SEO } from "astro-seo";
 import { getImage } from "astro:assets";
+import { BASE_URL } from "~/utils";
 
 interface Props {
   title?: string;
@@ -42,7 +43,13 @@ const optimizedImage = new URL(
       title={title}
       description={desc}
       extend={{
-        link: [{ rel: "icon", href: "/favicon.ico", type: "image/svg+xml" }],
+        link: [
+          {
+            rel: "icon",
+            href: `${BASE_URL}/favicon.ico`,
+            type: "image/svg+xml",
+          },
+        ],
         meta: [
           { name: "twitter:image:src", content: optimizedImage },
           { name: "twitter:image:alt", content: desc },

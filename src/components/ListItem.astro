@@ -1,15 +1,17 @@
 ---
+import { BASE_URL } from "~/utils";
+
 interface Props {
-  href: string
-  title?: string
-  description?: string
+  href: string;
+  title?: string;
+  description?: string;
 }
-const { href, title, description } = Astro.props
+const { href, title, description } = Astro.props;
 ---
 
 <li un-flex="~ col gap-1 items-start">
   <h3 class="post-title!">
-    <a href={href}>{title}</a>
+    <a href={BASE_URL + href}>{title}</a>
   </h3>
   <p>{description}</p>
 </li>

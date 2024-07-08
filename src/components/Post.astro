@@ -1,5 +1,5 @@
 ---
-import { formatDate, getPathFromCategory } from "~/utils";
+import { BASE_URL, formatDate, getPathFromCategory } from "~/utils";
 import { THEME_CONFIG } from "~/theme.config";
 interface Props {
   post: Post;
@@ -9,14 +9,14 @@ const { post } = Astro.props;
 const { translate: t } = Astro.locals;
 
 function getCategoryUrl(category: string) {
-  return `/categories/${getPathFromCategory(category, THEME_CONFIG.category_map)}`;
+  return `${BASE_URL}/categories/${getPathFromCategory(category, THEME_CONFIG.category_map)}`;
 }
 ---
 
 <article class="heti">
   <header>
     <h1 class="post-title!">
-      <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+      <a href={`${BASE_URL}/posts/${post.slug}/`}>{post.data.title}</a>
     </h1>
     <div class="mt-2 text-3.5">
       <span>{t("posted_at")}</span>

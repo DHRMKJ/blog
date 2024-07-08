@@ -24,9 +24,9 @@ Node.js is combination of the google's [V8 engine](https://nodejs.org/en/learn/g
 ***Below is the representation of how I think of it, events come and events go.***
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/post/arrow-right.png" alt="arrow right" style="width: 30%;">
-    <img src="/post/event-loop.jpg" alt="loop" style="width: 30%;">
-    <img src="/post/arrow.png" alt="arrow" style="width: 30%;">
+    <img src="/blog/post/arrow-right.png" alt="arrow right" style="width: 30%;">
+    <img src="/blog/post/event-loop.jpg" alt="loop" style="width: 30%;">
+    <img src="/blog/post/arrow.png" alt="arrow" style="width: 30%;">
 </div>
 
 **The Computations**
@@ -121,22 +121,22 @@ The response is sent back to the client, and the request's journey comes to an e
 
 <div style="display: flex; justify-content: space-around; flex-wrap: no-wrap;">
   <div style="text-align: center;">
-    <img src="/post/gatekeeper.jpg" alt="The Gatekeeper" style="width: max; height: auto;">
+    <img src="/blog/post/gatekeeper.jpg" alt="The Gatekeeper" style="width: max; height: auto;">
   </div>
   <div style="text-align: center;">
-    <img src="/post/middleman.jpg" alt="The Middleman" style="width: max; height: auto;">
+    <img src="/blog/post/middleman.jpg" alt="The Middleman" style="width: max; height: auto;">
   </div>
   <div style="text-align: center;">
-    <img src="/post/handler.jpg" alt="The Handler" style="width: max; height: auto;">
+    <img src="/blog/post/handler.jpg" alt="The Handler" style="width: max; height: auto;">
   </div>
   <div style="text-align: center;">
-    <img src="/post/waiting-room.jpg" alt="The Event Loop" style="width: max; height: auto;">
+    <img src="/blog/post/waiting-room.jpg" alt="The Event Loop" style="width: max; height: auto;">
   </div>
   <div style="text-align: center;">
-    <img src="/post/backend-workers.jpg" alt="libuv" style="width: max; height: auto;">
+    <img src="/blog/post/backend-workers.jpg" alt="libuv" style="width: max; height: auto;">
   </div>
     <div style="text-align: center;">
-    <img src="/post/infinite-loop.jpg" alt="libuv" style="width: max; height: auto;">
+    <img src="/blog/post/infinite-loop.jpg" alt="libuv" style="width: max; height: auto;">
   </div>
 </div>
 

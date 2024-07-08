@@ -55,3 +55,5 @@ export function getPathFromCategory(category: string, category_map: {name: strin
   const mappingPath = category_map.find(l => l.name === category)
   return mappingPath ? mappingPath.path : category
 }
+
+export const BASE_URL = "/blog";

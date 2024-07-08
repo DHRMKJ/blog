@@ -7,7 +7,7 @@ categories: ['Rust', 'Programming']
 
 
 
-![WHY RUST](/post/jackie-chan-why.jpg)
+![WHY RUST](/blog/post/jackie-chan-why.jpg)
 
 **I would use JavaScript/TypeScript or Python for writing servers but node.js isnt the best idea of computation right,
 the nodejs architecture [events architecture](/posts/noddy-js) and Python🐍 being a 🐌**
