@@ -77,7 +77,7 @@ In essence, Raylib's structure embodies what many C programmers value: clarity, 
 
 Digging through examples I found a simple sprite!
 
-![scarfy-image](/post/scarfy.png)
+![scarfy-image](/blog/post/scarfy.png)
 ***he's scarfy***
 
 So naturally we tried making a game, checkout [scarfy-run](https://github.com/DHRMKJ/scarfy-run)
