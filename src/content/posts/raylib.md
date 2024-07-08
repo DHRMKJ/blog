@@ -22,7 +22,7 @@ no need for IDEs and heavy machinary, no CMake or anything just a smoll smoll bu
 I like to build my libs and link them, 
 This script compiles our main.c file with Raylib, handling all necessary flags and dependencies.
 
-```build.sh
+```sh
 #!/bin/bash
 
 gcc -Wall -Werror --pedantic main.c -o main -std=c99 -I ./raylib/src -L ./raylib/src -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
@@ -31,7 +31,7 @@ gcc -Wall -Werror --pedantic main.c -o main -std=c99 -I ./raylib/src -L ./raylib
 **The Magic of Raylib** <br/>
 With Raylib, creating a basic GUI application becomes remarkably simple. Here's a basic example structure, just a few lines of code:
 
-```main.c
+```c
 
 #include "raylib.h"
 
