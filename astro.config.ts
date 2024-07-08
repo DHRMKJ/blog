@@ -8,20 +8,21 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: THEME_CONFIG.website,
+  base: "/blog",
   prefetch: true,
   markdown: {
     shikiConfig: {
-      theme: 'one-dark-pro',
+      theme: "one-dark-pro",
       langs: [],
       wrap: true,
     },
   },
   integrations: [
     UnoCSS({
-      injectReset: true
+      injectReset: true,
     }),
     robotsTxt(),
     sitemap(),
-    mdx()
-  ]
+    mdx(),
+  ],
 });
