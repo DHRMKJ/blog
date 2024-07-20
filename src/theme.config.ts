@@ -4,7 +4,7 @@ export const THEME_CONFIG: App.Locals["config"] = {
   /** your name */
   author: "DHARMIK",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "Hallo meine freunde!",
   /** your deployed domain */
   website: "https://dhrmkj.github.io",
   /** your locale */
