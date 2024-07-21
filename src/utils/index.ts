@@ -56,4 +56,4 @@ export function getPathFromCategory(category: string, category_map: {name: strin
   return mappingPath ? mappingPath.path : category
 }
 
-export const BASE_URL = "/";
+export const BASE_URL = "";
