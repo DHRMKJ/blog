@@ -6,7 +6,7 @@ export const THEME_CONFIG: App.Locals["config"] = {
   /** website description */
   desc: "Hallo meine freunde!",
   /** your deployed domain */
-  website: "https://dharmik.me",
+  website: "https://blog.dharmik.me",
   /** your locale */
   locale: "en-us",
   /** theme style */
