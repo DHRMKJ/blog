@@ -50,7 +50,7 @@ export const THEME_CONFIG: App.Locals["config"] = {
     },
     {
       name: "About",
-      href: "/about",
+      href: "dharmik.me",
     },
   ],
   /** your category name mapping, which the `path` will be shown in the url */
